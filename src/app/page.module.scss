@@ -1,0 +1,20 @@
+.home-page{
+    width: 100vw;
+    height: auto;
+    min-width: 50rem;
+}
+.heading-page-ele{
+    margin: 3rem 3rem 3rem 3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    letter-spacing: 1rem;
+    font-size: 5rem;
+    color: grey;
+}
+.side-and-main-div{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

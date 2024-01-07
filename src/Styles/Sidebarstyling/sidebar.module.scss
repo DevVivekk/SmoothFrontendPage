@@ -1,0 +1,27 @@
+.sidebar-main{
+    width: 28rem;
+    max-height: auto;
+    min-height: 50rem;
+    section{
+        ul{
+            li{
+                font-size: 1.8rem;
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 1rem;
+                padding-left: 1.5rem;
+                font-family: Arial, Helvetica, sans-serif;
+                width: 28rem;
+                height: 4rem;
+                border-radius: 20px;
+                transition: all ease 0.7s;
+                cursor: pointer;
+                &:hover{
+                    background-color: white;
+                }
+            }
+        }
+    }
+}

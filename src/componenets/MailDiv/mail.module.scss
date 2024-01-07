@@ -1,0 +1,93 @@
+.mail-mail-div-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    min-width: 50rem;
+    background-color: white;
+    box-shadow: 0px 0px 5px whitesmoke;
+    border-radius: 5px;
+    section{
+        height: 4rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(240, 232, 232);
+        border-top-left-radius: 5px;
+        border-top-right-radius:5px;
+        div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-grow: 0.8;
+            span{
+                margin-left: 2rem
+            };
+        }
+    }
+}
+.heading-name-time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+>span:nth-child(2){
+    margin-right: 4rem;
+    font-size: 1.4rem;
+}
+}
+.mail-body-div{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 42rem;
+    p{
+        font-size: 1.5rem;
+    }
+    article{
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+    }
+}
+.mail-heading{
+    font-size: 2.5rem;
+}
+.mail-title{
+    font-size: 3.5rem;
+}
+.mail-buttons{
+    margin-top: 4rem;
+    max-width: auto;
+    min-width: 50rem;
+    button{
+        min-width: 13rem;
+        max-width: 25rem;
+        box-sizing: border-box;
+        height: 4rem;
+        background-color: rgb(221, 229, 246);
+        cursor: pointer;
+        border-radius: 15px;
+        transition: all ease 0.7s;
+        text-overflow: ellipsis;
+        padding: 10px;
+        white-space: nowrap;
+        margin: 1rem 2rem;
+        &:hover{
+            background-color: whitesmoke;
+        }
+    }
+}
+.mail-moreactions{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+    justify-content: space-around;
+}
+@media screen and (max-width: 698px) {
+    .mail-mail-combine-div{
+        min-width: 50rem !important;
+        overflow: auto !important;
+    }
+}
